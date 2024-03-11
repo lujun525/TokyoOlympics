@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		202019022B9E9F6D002CFB40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202019012B9E9F6D002CFB40 /* AppDelegate.swift */; };
+		202019042B9E9F6D002CFB40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202019032B9E9F6D002CFB40 /* SceneDelegate.swift */; };
+		202019062B9E9F6D002CFB40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202019052B9E9F6D002CFB40 /* ViewController.swift */; };
+		202019092B9E9F6D002CFB40 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 202019082B9E9F6D002CFB40 /* Base */; };
+		2020190C2B9E9F6D002CFB40 /* TokyoOlympics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2020190A2B9E9F6D002CFB40 /* TokyoOlympics.xcdatamodeld */; };
+		2020190E2B9E9F6E002CFB40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2020190D2B9E9F6E002CFB40 /* Assets.xcassets */; };
+		202019112B9E9F6E002CFB40 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 202019102B9E9F6E002CFB40 /* Base */; };
+		2020191C2B9E9F6E002CFB40 /* TokyoOlympicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2020191B2B9E9F6E002CFB40 /* TokyoOlympicsTests.swift */; };
+		202019262B9E9F6E002CFB40 /* TokyoOlympicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202019252B9E9F6E002CFB40 /* TokyoOlympicsUITests.swift */; };
+		202019282B9E9F6E002CFB40 /* TokyoOlympicsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202019272B9E9F6E002CFB40 /* TokyoOlympicsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		202019182B9E9F6E002CFB40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 202018F62B9E9F6D002CFB40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 202018FD2B9E9F6D002CFB40;
+			remoteInfo = TokyoOlympics;
+		};
+		202019222B9E9F6E002CFB40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 202018F62B9E9F6D002CFB40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 202018FD2B9E9F6D002CFB40;
+			remoteInfo = TokyoOlympics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		202018FE2B9E9F6D002CFB40 /* TokyoOlympics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokyoOlympics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		202019012B9E9F6D002CFB40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		202019032B9E9F6D002CFB40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		202019052B9E9F6D002CFB40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		202019082B9E9F6D002CFB40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2020190B2B9E9F6D002CFB40 /* TokyoOlympics.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TokyoOlympics.xcdatamodel; sourceTree = "<group>"; };
+		2020190D2B9E9F6E002CFB40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		202019102B9E9F6E002CFB40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		202019122B9E9F6E002CFB40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		202019172B9E9F6E002CFB40 /* TokyoOlympicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokyoOlympicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2020191B2B9E9F6E002CFB40 /* TokyoOlympicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokyoOlympicsTests.swift; sourceTree = "<group>"; };
+		202019212B9E9F6E002CFB40 /* TokyoOlympicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokyoOlympicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		202019252B9E9F6E002CFB40 /* TokyoOlympicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokyoOlympicsUITests.swift; sourceTree = "<group>"; };
+		202019272B9E9F6E002CFB40 /* TokyoOlympicsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokyoOlympicsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		202018FB2B9E9F6D002CFB40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202019142B9E9F6E002CFB40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2020191E2B9E9F6E002CFB40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		202018F52B9E9F6D002CFB40 = {
+			isa = PBXGroup;
+			children = (
+				202019002B9E9F6D002CFB40 /* TokyoOlympics */,
+				2020191A2B9E9F6E002CFB40 /* TokyoOlympicsTests */,
+				202019242B9E9F6E002CFB40 /* TokyoOlympicsUITests */,
+				202018FF2B9E9F6D002CFB40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		202018FF2B9E9F6D002CFB40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				202018FE2B9E9F6D002CFB40 /* TokyoOlympics.app */,
+				202019172B9E9F6E002CFB40 /* TokyoOlympicsTests.xctest */,
+				202019212B9E9F6E002CFB40 /* TokyoOlympicsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		202019002B9E9F6D002CFB40 /* TokyoOlympics */ = {
+			isa = PBXGroup;
+			children = (
+				202019012B9E9F6D002CFB40 /* AppDelegate.swift */,
+				202019032B9E9F6D002CFB40 /* SceneDelegate.swift */,
+				202019052B9E9F6D002CFB40 /* ViewController.swift */,
+				202019072B9E9F6D002CFB40 /* Main.storyboard */,
+				2020190D2B9E9F6E002CFB40 /* Assets.xcassets */,
+				2020190F2B9E9F6E002CFB40 /* LaunchScreen.storyboard */,
+				202019122B9E9F6E002CFB40 /* Info.plist */,
+				2020190A2B9E9F6D002CFB40 /* TokyoOlympics.xcdatamodeld */,
+			);
+			path = TokyoOlympics;
+			sourceTree = "<group>";
+		};
+		2020191A2B9E9F6E002CFB40 /* TokyoOlympicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2020191B2B9E9F6E002CFB40 /* TokyoOlympicsTests.swift */,
+			);
+			path = TokyoOlympicsTests;
+			sourceTree = "<group>";
+		};
+		202019242B9E9F6E002CFB40 /* TokyoOlympicsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				202019252B9E9F6E002CFB40 /* TokyoOlympicsUITests.swift */,
+				202019272B9E9F6E002CFB40 /* TokyoOlympicsUITestsLaunchTests.swift */,
+			);
+			path = TokyoOlympicsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		202018FD2B9E9F6D002CFB40 /* TokyoOlympics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2020192B2B9E9F6E002CFB40 /* Build configuration list for PBXNativeTarget "TokyoOlympics" */;
+			buildPhases = (
+				202018FA2B9E9F6D002CFB40 /* Sources */,
+				202018FB2B9E9F6D002CFB40 /* Frameworks */,
+				202018FC2B9E9F6D002CFB40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TokyoOlympics;
+			productName = TokyoOlympics;
+			productReference = 202018FE2B9E9F6D002CFB40 /* TokyoOlympics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		202019162B9E9F6E002CFB40 /* TokyoOlympicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2020192E2B9E9F6E002CFB40 /* Build configuration list for PBXNativeTarget "TokyoOlympicsTests" */;
+			buildPhases = (
+				202019132B9E9F6E002CFB40 /* Sources */,
+				202019142B9E9F6E002CFB40 /* Frameworks */,
+				202019152B9E9F6E002CFB40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				202019192B9E9F6E002CFB40 /* PBXTargetDependency */,
+			);
+			name = TokyoOlympicsTests;
+			productName = TokyoOlympicsTests;
+			productReference = 202019172B9E9F6E002CFB40 /* TokyoOlympicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		202019202B9E9F6E002CFB40 /* TokyoOlympicsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 202019312B9E9F6E002CFB40 /* Build configuration list for PBXNativeTarget "TokyoOlympicsUITests" */;
+			buildPhases = (
+				2020191D2B9E9F6E002CFB40 /* Sources */,
+				2020191E2B9E9F6E002CFB40 /* Frameworks */,
+				2020191F2B9E9F6E002CFB40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				202019232B9E9F6E002CFB40 /* PBXTargetDependency */,
+			);
+			name = TokyoOlympicsUITests;
+			productName = TokyoOlympicsUITests;
+			productReference = 202019212B9E9F6E002CFB40 /* TokyoOlympicsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		202018F62B9E9F6D002CFB40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					202018FD2B9E9F6D002CFB40 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					202019162B9E9F6E002CFB40 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 202018FD2B9E9F6D002CFB40;
+					};
+					202019202B9E9F6E002CFB40 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 202018FD2B9E9F6D002CFB40;
+					};
+				};
+			};
+			buildConfigurationList = 202018F92B9E9F6D002CFB40 /* Build configuration list for PBXProject "TokyoOlympics" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 202018F52B9E9F6D002CFB40;
+			productRefGroup = 202018FF2B9E9F6D002CFB40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				202018FD2B9E9F6D002CFB40 /* TokyoOlympics */,
+				202019162B9E9F6E002CFB40 /* TokyoOlympicsTests */,
+				202019202B9E9F6E002CFB40 /* TokyoOlympicsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		202018FC2B9E9F6D002CFB40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2020190E2B9E9F6E002CFB40 /* Assets.xcassets in Resources */,
+				202019112B9E9F6E002CFB40 /* Base in Resources */,
+				202019092B9E9F6D002CFB40 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202019152B9E9F6E002CFB40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2020191F2B9E9F6E002CFB40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		202018FA2B9E9F6D002CFB40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2020190C2B9E9F6D002CFB40 /* TokyoOlympics.xcdatamodeld in Sources */,
+				202019062B9E9F6D002CFB40 /* ViewController.swift in Sources */,
+				202019022B9E9F6D002CFB40 /* AppDelegate.swift in Sources */,
+				202019042B9E9F6D002CFB40 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202019132B9E9F6E002CFB40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2020191C2B9E9F6E002CFB40 /* TokyoOlympicsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2020191D2B9E9F6E002CFB40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202019262B9E9F6E002CFB40 /* TokyoOlympicsUITests.swift in Sources */,
+				202019282B9E9F6E002CFB40 /* TokyoOlympicsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		202019192B9E9F6E002CFB40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 202018FD2B9E9F6D002CFB40 /* TokyoOlympics */;
+			targetProxy = 202019182B9E9F6E002CFB40 /* PBXContainerItemProxy */;
+		};
+		202019232B9E9F6E002CFB40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 202018FD2B9E9F6D002CFB40 /* TokyoOlympics */;
+			targetProxy = 202019222B9E9F6E002CFB40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		202019072B9E9F6D002CFB40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				202019082B9E9F6D002CFB40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2020190F2B9E9F6E002CFB40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				202019102B9E9F6E002CFB40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		202019292B9E9F6E002CFB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2020192A2B9E9F6E002CFB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2020192C2B9E9F6E002CFB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8X44YV9H73;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TokyoOlympics/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tokyo.olympics.TokyoOlympics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2020192D2B9E9F6E002CFB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8X44YV9H73;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TokyoOlympics/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tokyo.olympics.TokyoOlympics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2020192F2B9E9F6E002CFB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8X44YV9H73;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tokyo.olympics.TokyoOlympicsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TokyoOlympics.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TokyoOlympics";
+			};
+			name = Debug;
+		};
+		202019302B9E9F6E002CFB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8X44YV9H73;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tokyo.olympics.TokyoOlympicsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TokyoOlympics.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TokyoOlympics";
+			};
+			name = Release;
+		};
+		202019322B9E9F6E002CFB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8X44YV9H73;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tokyo.olympics.TokyoOlympicsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TokyoOlympics;
+			};
+			name = Debug;
+		};
+		202019332B9E9F6E002CFB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8X44YV9H73;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tokyo.olympics.TokyoOlympicsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TokyoOlympics;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		202018F92B9E9F6D002CFB40 /* Build configuration list for PBXProject "TokyoOlympics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202019292B9E9F6E002CFB40 /* Debug */,
+				2020192A2B9E9F6E002CFB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2020192B2B9E9F6E002CFB40 /* Build configuration list for PBXNativeTarget "TokyoOlympics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2020192C2B9E9F6E002CFB40 /* Debug */,
+				2020192D2B9E9F6E002CFB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2020192E2B9E9F6E002CFB40 /* Build configuration list for PBXNativeTarget "TokyoOlympicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2020192F2B9E9F6E002CFB40 /* Debug */,
+				202019302B9E9F6E002CFB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		202019312B9E9F6E002CFB40 /* Build configuration list for PBXNativeTarget "TokyoOlympicsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202019322B9E9F6E002CFB40 /* Debug */,
+				202019332B9E9F6E002CFB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2020190A2B9E9F6D002CFB40 /* TokyoOlympics.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2020190B2B9E9F6D002CFB40 /* TokyoOlympics.xcdatamodel */,
+			);
+			currentVersion = 2020190B2B9E9F6D002CFB40 /* TokyoOlympics.xcdatamodel */;
+			path = TokyoOlympics.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 202018F62B9E9F6D002CFB40 /* Project object */;
+}
